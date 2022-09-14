@@ -1,0 +1,38 @@
+body {
+    padding: 0; margin: 0; 
+}
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+        background-color: aliceblue;
+        margin: auto;
+        height: 90vh;
+        width: 80vw;
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: space-around;
+        align-items: center; 
+}
+
+.box {
+    
+    height: 5%;
+    width: 5%;   
+}
+
+@media screen and (min-width: 700px) {
+    
+    .container{
+        flex-direction: row;     
+    }    
+    .box {
+        height: 20%;
+        width: 20%;
+    }   
+}
