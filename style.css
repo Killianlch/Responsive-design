@@ -1,5 +1,16 @@
 body {
     padding: 0; margin: 0; 
+    background: #242629;
+    color: #a0a0a1;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 15pt;
+    font-weight: 200;
+    letter-spacing: 0.025em;
+}
+
+.blanc {
+    color: white;
+    font-weight: 300;
 }
 .main {
     height: 100vh;
@@ -8,6 +19,7 @@ body {
     justify-content: baseline;
     
 }
+
 .photos {
     display: flex;
     flex-direction: column;
