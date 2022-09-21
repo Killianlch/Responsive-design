@@ -1,52 +1,72 @@
 body {
-    padding: 0; margin: 0; 
+    padding: 0;
+    margin: 0;
     background: #242629;
     color: #a0a0a1;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-size: 15pt;
-    font-weight: 300;
     letter-spacing: 0.025em;
+}
+
+.header {
+    background-color: #242629;
+    height: 5vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
 }
 
 .blanc {
     color: white;
-    font-weight: 300;
+    font-weight: 200;
 }
+
+.Logo {
+    margin-inline: 5vw;
+}
+
+.aligned {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    font-weight: 200;
+    font-size: 25pt;
+}
+
 .main {
     height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: baseline;
-    
+
 }
-.texte1 {
-    color: white;
-    font-size: 20pt;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(50%, -50%);
-    
-}
+
 .parent {
     position: relative;
 }
-.cropped {
-    width: 110%; 
-    height: 50vh; 
-    overflow: hidden;
-    border: 5px solid black;
-    }
 
-.container1 {
+.cropped {
+    height: 35vh;
+    overflow: hidden;
+}
+
+.PhotoEtTexte {
     display: flex;
     flex-direction: column;
     position: relative;
 }
+
 .container {
     display: inline-block;
     position: relative;
 }
+
 .container .text {
     z-index: 1;
     position: absolute;
@@ -56,8 +76,30 @@ body {
     top: 80%;
     color: white;
 }
-@media screen and (min-width: 1000px) {
-   .photos{
-    flex-direction: column;
-   }
-    }   
+
+/*.PhotoEtTexte {
+    max-width: 1300px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #333;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+}
+
+.container {
+    width: 300px;
+    height: 200px;
+    background: #333;
+}
+
+*/
+
+.PhotoEtTexte img {
+    width: 100vw;
+}
+
+@media screen and (min-width: 600px) {
+    .PhotoEtTexte {
+        display: flex;
+    }
+}
