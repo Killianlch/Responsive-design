@@ -7,9 +7,13 @@ body {
     letter-spacing: 0.025em;
 }
 
+p {
+    cursor: pointer;
+}
+
 .header {
     background-color: #242629;
-    height: 5vh;
+    height: 9vh;
     top: 0;
     left: 0;
     width: 100%;
@@ -18,15 +22,19 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 2em;
+    align-items: center;
 }
 
 .blanc {
     color: white;
     font-weight: 200;
+    margin-left: 2vh;
 }
 
 .Logo {
-    margin-inline: 5vw;
+    margin-inline: 3vw;
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .aligned {
@@ -39,18 +47,6 @@ body {
     font-size: 25pt;
 }
 
-.main {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: baseline;
-
-}
-
-.parent {
-    position: relative;
-}
-
 .cropped {
     height: 35vh;
     overflow: hidden;
@@ -60,6 +56,11 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
+    cursor: pointer;
+}
+
+.PhotoEtTexte img {
+    width: 100vw;
 }
 
 .container {
@@ -94,9 +95,7 @@ body {
 
 */
 
-.PhotoEtTexte img {
-    width: 100vw;
-}
+
 
 @media screen and (min-width: 600px) {
     .PhotoEtTexte {
