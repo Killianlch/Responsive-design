@@ -1,91 +1,165 @@
-body {
-    padding: 0;
-    margin: 0;
-    background: #242629;
-    color: #a0a0a1;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    letter-spacing: 0.025em;
-}
-
 p {
     cursor: pointer;
 }
 
-.header {
+.padding0 {
+    padding: 0;
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+.bg {
     background-color: #242629;
+}
+
+.color-letter-header {
+    color: #a0a0a1;
+}
+
+.font-family {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.letter-space {
+    letter-spacing: 0.025em;
+}
+
+.h9vh {
     height: 9vh;
+}
+
+.top0 {
     top: 0;
+}
+
+.left0 {
     left: 0;
+}
+
+.width100 {
     width: 100%;
+}
+
+.position-fixed {
     position: fixed;
+}
+
+.z-i2 {
     z-index: 2;
+}
+
+.d-flex {
     display: flex;
+}
+
+.jc-spaceb {
     justify-content: space-between;
+}
+
+.fz2em {
     font-size: 2em;
+}
+
+.align-center {
     align-items: center;
 }
 
-.blanc {
+.color-white {
     color: white;
+}
+
+.fw200 {
     font-weight: 200;
+}
+
+.margin-l2vh {
     margin-left: 2vh;
 }
 
-.Logo {
+.margin-il3vw {
     margin-inline: 3vw;
+}
+
+.opacity05 {
     opacity: 0.5;
+}
+
+.cursorp {
     cursor: pointer;
 }
 
-.aligned {
-    display: flex;
-    align-items: center;
-}
-
-.text {
-    font-weight: 200;
+.fz25pt {
     font-size: 25pt;
 }
 
-.cropped {
+.h35vh {
     height: 35vh;
+}
+
+.overflow-h {
     overflow: hidden;
 }
 
-.PhotoEtTexte {
-    display: flex;
+.flex-direction-c {
     flex-direction: column;
-    position: relative;
-    cursor: pointer;
 }
 
-.PhotoEtTexte img {
+.position-r {
+    position: relative;
+}
+
+img {
     width: 100vw;
 }
 
-.container {
+.display-i-block {
     display: inline-block;
-    position: relative;
 }
 
-.container .text {
+.z-i1 {
     z-index: 1;
-    position: absolute;
-    margin: 0 auto;
-    left: 10%;
-    right: 0;
-    top: 80%;
-    color: white;
 }
 
-.fond {
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.7);
-    position: fixed;
-    top: 0;
-    left: 0;
+.position-a {
+    position: absolute;
+}
 
+.margin-0auto {
+    margin: 0 auto;
+}
+
+.left10 {
+    left: 10%;
+}
+
+.right0 {
+    right: 0;
+}
+
+.top80 {
+    top: 80%;
+}
+
+.h100vh {
+    height: 100vh;
+}
+
+.bg-transparent {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.width100vw {
+    width: 100vw;
+}
+
+.z-i3 {
+    z-index: 3;
+}
+
+.jc-spacea {
+    justify-content: space-around;
 }
 
 /*.PhotoEtTexte {
