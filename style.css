@@ -67,7 +67,7 @@ p {
   justify-content: space-between;
 }
 
-.fz2em {
+.fs2em {
   font-size: 2em;
 }
 
@@ -99,7 +99,7 @@ p {
   cursor: pointer;
 }
 
-.fz25pt {
+.fs25pt {
   font-size: 25pt;
 }
 
@@ -172,6 +172,15 @@ p {
   justify-content: space-around;
 }
 
+.block-img {
+  height: 45vh;
+}
+.block-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /*.PhotoEtTexte {
     max-width: 1300px;
     width: 100%;
@@ -192,7 +201,7 @@ p {
   .reponsive-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-  .fz25pt {
+  .fs25pt {
     font-size: 12pt;
   }
 }
