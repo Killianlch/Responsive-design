@@ -2,6 +2,18 @@ p {
     cursor: pointer;
 }
 
+.d-grid {
+    display: grid;
+}
+
+.reponsive-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+}
+
+
+
+
 .padding0 {
     padding: 0;
 }
@@ -110,8 +122,9 @@ p {
     position: relative;
 }
 
-img {
-    width: 100vw;
+.d-grid img {
+    width: 100%;
+    object-fit: cover;
 }
 
 .display-i-block {
@@ -178,11 +191,12 @@ img {
 }
 
 */
+@media screen and (min-width: 1200px) {
+    .reponsive-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
-
-
-@media screen and (min-width: 600px) {
-    .PhotoEtTexte {
-        display: flex;
+    .fz25pt {
+        font-size: 12pt;
     }
 }
