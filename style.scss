@@ -185,32 +185,42 @@ p {
 .modal {
     position: fixed;
     z-index: 1;
+    left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     overflow: auto !important;
     background-color: rgba(0, 0, 0, 0.9);
-    padding: 20% 20%;
+
 }
 
 .modal-img {
-    width: 50%;
+    padding-top: 60%;
+    margin: auto;
+    display: block;
+    width: 90%;
     height: auto;
 }
 
 .modal-dismiss {
-    position: fixed;
-    top: 1%;
-    right: 1%;
-    font-size: 3em;
+    color: #aaa;
+    float: right;
+    font-size: 28px;
     font-weight: bold;
-    text-shadow: 1px 1px 3px #222;
-    cursor: pointer;
-    z-index: 3;
 }
 
 .modal-dismiss:hover {
-    font-size: 3.2em;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /*.PhotoEtTexte {
@@ -233,6 +243,13 @@ p {
     .reponsive-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .modal-img {
+        width: 60%;
+        padding-top: 20%;
+    }
+
+
 
     .fs25pt {
         font-size: 12pt;

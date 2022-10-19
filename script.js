@@ -1,4 +1,5 @@
 let modablesImg = document.querySelectorAll("img.modable");
+var span = document.getElementsByClassName("close")[0];
 
 for (let i = 0; i < modablesImg.length; i++) {
     modablesImg[i].addEventListener("click", function () {
