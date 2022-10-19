@@ -181,6 +181,55 @@ p {
   object-fit: cover;
 }
 
+.modal {
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto !important;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 10% 0;
+}
+
+.modal-img {
+  width: 50%;
+  height: auto;
+}
+
+.modal-caption {
+  width: 50%;
+  height: auto;
+  padding: 1%;
+  background-color: rgba(20, 20, 20, 0.904);
+  color: white;
+  font-size: 200px;
+  font-weight: 300;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  transform: translate(0, -100%);
+  text-align: center;
+}
+
+.modal-dismiss {
+  position: fixed;
+  top: 1%;
+  right: 1%;
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #222;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.modal-dismiss:hover {
+  font-size: 3.2em;
+}
+
 /*.PhotoEtTexte {
     max-width: 1300px;
     width: 100%;
